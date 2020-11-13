@@ -40,7 +40,7 @@ if (mysqli_connect_errno()) {
             if ($status == '1'){
                 header('Location: fivem://connect/' . $fivem_server);
             }else{
-                echo 'Oyuna giriş yapma yetkin yok. Launcher kullan.';
+                echo 'No estás autorizado para iniciar sesión en el juego. Utilice el lanzador.';
             }
 		}
 	}
